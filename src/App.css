@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 35rem;
+  border: none;
+  padding: 10px 0px 10px 0;
+  margin: 75px auto 0 auto;
+  border-radius: 30px;
+
+  background-color: rgba(157, 217, 210, 0.7);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-div {
+  margin: 20px 0 15px 0;
+  width: 90%;
+}
+
+.app-input {
+  width: 85%;
+  margin-right: 5px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0px 15px;
+  font-size: medium;
+  border: 1px solid silver;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.app-btn {
+  height: 42px;
+  border-radius: 20px;
+  width: 10%;
+  border: none;
+  font-size: medium;
+}
+
+.temp {
+  font-size: xxx-large;
+  margin: 5px 0 10px 0;
+}
+
+.cloud-info {
+  font-size: x-large;
+  margin: 15px 0 15px 0;
+}
+
+.city-name {
+  margin: 0 0 25px 0;
+  font-size: xxx-large;
+}
+
+.weather-props {
+  margin: 0px 0 25px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.prop {
+  font-size: 18px;
+}
+
+.app-spinner {
+  width: 100px;
+  height: 100px;
+  font-size: x-large;
+}
+
+.loading-container {
+  margin: 100px 0 100px 0;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.empty-state {
+  font-size: x-large;
+  margin: 120px 0 100px 0;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+}
+
+.not-available {
+  font-size: xxx-large;
+  margin-bottom: 5px;
+}
+
+.error-msg {
+  font-size: large;
+}
