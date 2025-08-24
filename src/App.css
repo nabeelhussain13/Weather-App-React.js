@@ -121,7 +121,7 @@ img {
   }
 
   .app-container {
-    width: 21rem;
+    width: 20rem;
     margin: 0;
   }
 
@@ -151,5 +151,6 @@ img {
 
   .error-msg {
     font-size: 21px;
+    margin: 0px 10px 0 10px;
   }
 }
