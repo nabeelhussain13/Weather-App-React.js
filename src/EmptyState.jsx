@@ -3,10 +3,7 @@ import { CgUnavailable } from "react-icons/cg";
 const EmptyState = () => {
   return (
     <div className="empty-state">
-      <p>
-        <CgUnavailable className="not-available" />
-      </p>
-      <p className="error-msg">Search a city to get started.</p>
+      <p className="error-msg">Search for a location to see weather details.</p>
     </div>
   );
 };
